@@ -32,7 +32,7 @@ namespace LSS_MON
 
                 // 프로세스 이름으로 체크 하면 , exe 파일명을 바꾸면 소용이 없음.
                 // 프로그램이 먼저 실행중이 아니면 0을 리턴
-                processCount = FindWindow(null, "LSS_MON");
+                processCount = FindWindow(null, "LSS_MON㈜");
 
                 // 중복 프로세스 탐지함
                 if (processCount > 0)
